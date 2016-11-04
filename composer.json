@@ -1,0 +1,37 @@
+{
+    "name": "newance/laravel-teamleader",
+    "description": "Get teamleader api data",
+    "keywords": [
+        "newance",
+        "teamleader"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joachim Vanthuyne",
+            "email": "joachim@newance.be",
+            "homepage": "https://newance.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^5.5|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Newance\\Teamleader\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Newance\\Teamleader\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
